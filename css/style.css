@@ -1426,7 +1426,7 @@ button,
   content: "";
   display: block;
   position: absolute;
-  background-image: url("../../img/header-background-desktop.jpg");
+  background-image: url("../img/header-background-desktop.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1633,7 +1633,7 @@ button,
 .equipment-container {
   position: relative;
   z-index: 1;
-  background-image: url("../../img/equipment-background.jpg");
+  background-image: url("../img/equipment-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1721,7 +1721,7 @@ button,
   flex-direction: column;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  background-image: url(../../img/about-background.jpg);
+  background-image: url(../img/about-background.jpg);
   background-size: cover;
   width: 100%;
   background-repeat: no-repeat;
@@ -1870,7 +1870,7 @@ button,
 .guitar {
   position: relative;
   z-index: 1;
-  background-image: url("../../img/guitar-back.png");
+  background-image: url("../img/guitar-back.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 59px;
@@ -2041,7 +2041,7 @@ button,
 .info-container {
   position: relative;
   z-index: 1;
-  background-image: url("../../img/info-background.png");
+  background-image: url("../img/info-background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2088,7 +2088,7 @@ button,
 }
 
 .quote {
-  background-image: url(../../img/quote-background.png);
+  background-image: url(../img/quote-background.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2195,7 +2195,7 @@ button,
 }
 
 .nature-block--img {
-  background-image: url(../../img/nature-background.png);
+  background-image: url(../img/nature-background.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 59px;
