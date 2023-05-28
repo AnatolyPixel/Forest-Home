@@ -2450,6 +2450,10 @@ button,
     margin-right: 20px;
   }
 
+  .nav {
+    padding: 20px 0;
+  }
+
   .hero__logo {
     width: 500px;
   }
@@ -2585,6 +2589,10 @@ button,
 
   .nav-container {
     padding-top: 25px;
+  }
+
+  .nav {
+    padding: 0;
   }
 
   .order__description {
