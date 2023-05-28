@@ -744,10 +744,16 @@ button,
   font-family: "RobotoSlab-Regular", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 13px;
   letter-spacing: 0.04em;
   color: #fff;
+}
+@media (min-width: 1024px) {
+  .modal__link {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
 
 .custom-input,

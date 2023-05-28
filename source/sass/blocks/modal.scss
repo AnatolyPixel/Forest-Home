@@ -112,15 +112,15 @@
 
 
 .modal-container {
-margin: 0 auto;
+  margin: 0 auto;
 }
 
 .modal__close-btn:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .modal__close-btn:active {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .modal__link {
@@ -128,8 +128,13 @@ margin: 0 auto;
   font-family: $ff-robotoreg;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 13px;
   letter-spacing: 0.04em;
   color: #fff;
+
+  @include vp-1024 {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
