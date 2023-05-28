@@ -2529,7 +2529,7 @@ button,
 }
 
 .nature-block--img {
-  background-image: url(../img/nature-background.png);
+  background-image: url(../../img/nature-background.png);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 59px;
