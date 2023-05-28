@@ -14,6 +14,16 @@
     color: $color-default-white;
 }
 
+.footer__title:hover {
+  opacity: 0.5;
+}
+
+.footer__desc:hover {
+    opacity: 0.5;
+}
+
+
+
 .footer-home__button {
     font-family: $ff-robotomed;
     font-style: normal;
@@ -38,9 +48,13 @@
     line-height: 24px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 
     color: $color-default-white;
 }
+
+
+
 
 .footer-container {
     display: grid;

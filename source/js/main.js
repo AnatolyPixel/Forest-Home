@@ -41,6 +41,20 @@ window.addEventListener('DOMContentLoaded', () => {
     button44.scrollIntoView({ behavior: 'smooth' });
   });
 
+  const scrollButton5 = document.getElementById('scroll5');
+  const button55 = document.getElementById('order');
+
+  scrollButton5.addEventListener('click', () => {
+    button55.scrollIntoView({ behavior: 'smooth' });
+  });
+
+  const scrollButton6 = document.getElementById('scroll6');
+  const button66 = document.getElementById('order');
+
+  scrollButton6.addEventListener('click', () => {
+    button66.scrollIntoView({ behavior: 'smooth' });
+  });
+
   const searchInput = document.getElementById('searchInput');
   const headings = document.querySelectorAll('h2,h1,h3');
 
