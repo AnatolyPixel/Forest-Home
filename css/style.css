@@ -2605,7 +2605,8 @@ button,
   }
 
   .btn-order {
-    margin-left: 63px;
+    display: block;
+    margin: 0 auto;
   }
 
   .equipment-container {
