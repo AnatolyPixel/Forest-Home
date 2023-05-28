@@ -1352,6 +1352,10 @@ button,
   background-color: #69873D;
 }
 
+.nav__link:hover {
+  opacity: 0.5;
+}
+
 .nav__list {
   margin: 0;
   padding: 0;
@@ -1398,6 +1402,10 @@ button,
 
 .nav__form-input::placeholder {
   color: #ffffff;
+}
+
+.nav__form-input:hover {
+  opacity: 0.5;
 }
 
 .nav__item {
@@ -2315,6 +2323,14 @@ button,
   color: #ffffff;
 }
 
+.footer__title:hover {
+  opacity: 0.5;
+}
+
+.footer__desc:hover {
+  opacity: 0.5;
+}
+
 .footer-home__button {
   font-family: "RobotoSlab-Medium", "Arial", sans-serif;
   font-style: normal;
@@ -2345,6 +2361,7 @@ button,
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  cursor: pointer;
   color: #ffffff;
 }
 
