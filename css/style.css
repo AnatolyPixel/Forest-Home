@@ -808,8 +808,8 @@ button,
   font-family: "RobotoSlab-Regular", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 10px;
+  line-height: 13px;
   letter-spacing: 0.04em;
   color: #fff;
 }
@@ -2559,6 +2559,11 @@ button,
     margin: 0 auto;
     padding: 0 167px;
     width: 100%;
+  }
+
+  .modal__link {
+    font-size: 18px;
+    line-height: 24px;
   }
 
   .header {
