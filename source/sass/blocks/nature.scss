@@ -5,7 +5,7 @@
 }
 
 .nature-block--img {
-    background-image: url(../../img/nature-background.png);
+    background-image: url(../img/nature-background.png);
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 59px;
@@ -70,7 +70,7 @@
 
 .nature {
     @include vp-1024 {
-        background-image: url(../../img/nature-background.png);
+        background-image: url(../img/nature-background.png);
         background-repeat: no-repeat;
         min-height: 1523px;
         padding: 64px 40px;
