@@ -55,6 +55,13 @@ window.addEventListener('DOMContentLoaded', () => {
     button66.scrollIntoView({ behavior: 'smooth' });
   });
 
+  const scrollButton11 = document.getElementById('scroll11');
+  const button11 = document.getElementById('order');
+
+  scrollButton11.addEventListener('click', () => {
+    button11.scrollIntoView({ behavior: 'smooth' });
+  });
+
   const searchInput = document.getElementById('searchInput');
   const headings = document.querySelectorAll('h2,h1,h3');
 
