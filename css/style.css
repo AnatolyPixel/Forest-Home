@@ -2615,6 +2615,7 @@ button,
   .btn-order {
     display: block;
     margin: 0 auto;
+    margin-left: 68px;
   }
 
   .equipment-container {
