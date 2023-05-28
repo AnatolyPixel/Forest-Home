@@ -1430,6 +1430,17 @@ button,
   border-radius: 40px;
 }
 
+@media (min-width: 768px) {
+  .nav {
+    padding: 20px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .nav {
+    padding: 0;
+  }
+}
+
 .hero-container::before {
   content: "";
   display: block;

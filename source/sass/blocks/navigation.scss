@@ -97,3 +97,13 @@
 .nav__svg {
     border-radius: 40px;
 }
+
+.nav {
+    @include vp-768 {
+        padding: 20px 0;
+    }
+
+    @include vp-1024 {
+        padding: 0;
+    }
+}
